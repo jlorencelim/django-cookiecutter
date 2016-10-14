@@ -1,0 +1,24 @@
+# Generated and Temporary Files
+*.pyc
+*.pyo
+*.swp
+.DS_Store
+.coverage
+__pycache__
+
+# Project Dev-specific Files
+*.db
+*.sqlite3
+conf/settings/local.py
+var/log/
+*.log
+
+# IDE-Generated Files
+.project
+.pydevproject
+
+# User Uploaded Media Files
+frontend/media/*
+
+# Static Prod
+frontend/static.prod/*
