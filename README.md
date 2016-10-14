@@ -22,16 +22,14 @@ $ pip install cookiecutter
 Now run it against this repo:
 `$ cookiecutter https://github.com/jlorencelim/django-cookiecutter`
 
-You'll be prompted for some values. Provide them, then a Django project will be created for you.
-
-**Warning**: After this point, change 'Marco Fucci', etc to your own information.
+You'll be prompted for some values. Provide them, then a Django project will be created for you. For example:
 ```
 Cloning into 'django-cookiecutter'...
-remote: Counting objects: 443, done.
-remote: Compressing objects: 100% (242/242), done.
-remote: Total 443 (delta 196), reused 419 (delta 176)
-Receiving objects: 100% (443/443), 119.91 KiB | 0 bytes/s, done.
-Resolving deltas: 100% (196/196), done.
+remote: Counting objects: 32, done.
+remote: Compressing objects: 100% (25/25), done.
+remote: Total 32 (delta 1), reused 32 (delta 1), pack-reused 0
+Unpacking objects: 100% (32/32), done.
+Checking connectivity... done.
 project_name [Project Name]: My Django App
 repo_name [my_django_app]:
 description [A short description of the project.]: My new Django app.
